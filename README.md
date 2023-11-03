@@ -1,33 +1,66 @@
-# Blog Web Application - New Feature: Individual Blog Post Viewing
+<p align="center"><a href="https://laravel.com" target="_blank"><img src="https://raw.githubusercontent.com/laravel/art/master/logo-lockup/5%20SVG/2%20CMYK/1%20Full%20Color/laravel-logolockup-cmyk-red.svg" width="400" alt="Laravel Logo"></a></p>
 
-This repository documents the expansion of an existing blog web application to incorporate viewing individual blog posts.
+<p align="center">
+<a href="https://github.com/laravel/framework/actions"><img src="https://github.com/laravel/framework/workflows/tests/badge.svg" alt="Build Status"></a>
+<a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/dt/laravel/framework" alt="Total Downloads"></a>
+<a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/v/laravel/framework" alt="Latest Stable Version"></a>
+<a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/l/laravel/framework" alt="License"></a>
+</p>
 
-**Note:** Sensitive information has been omitted for privacy reasons. You will need to set up your own SQL database with blog content to run the application successfully.
+## About Laravel
 
-## Overview
-This update expands the functionality of an existing blog web application. It allows users to view individual blog posts by their unique IDs.
+Laravel is a web application framework with expressive, elegant syntax. We believe development must be an enjoyable and creative experience to be truly fulfilling. Laravel takes the pain out of development by easing common tasks used in many web projects, such as:
 
-## New Features
-- **Route Expansion:** Added a new route `/blog/{id}` to display a specific blog post based on its ID.
-- **Individual Blog Post View:** Created a view that presents the title, content, and creation date of a single blog post. The routing function renders the view by retrieving the corresponding record from the database.
+- [Simple, fast routing engine](https://laravel.com/docs/routing).
+- [Powerful dependency injection container](https://laravel.com/docs/container).
+- Multiple back-ends for [session](https://laravel.com/docs/session) and [cache](https://laravel.com/docs/cache) storage.
+- Expressive, intuitive [database ORM](https://laravel.com/docs/eloquent).
+- Database agnostic [schema migrations](https://laravel.com/docs/migrations).
+- [Robust background job processing](https://laravel.com/docs/queues).
+- [Real-time event broadcasting](https://laravel.com/docs/broadcasting).
 
-## Updated Homepage
-The home page now includes links to specific blog posts. Users can navigate directly to a detailed view of each post from the homepage.
+Laravel is accessible, powerful, and provides tools required for large, robust applications.
 
-## Database Configuration
-To use this application, you'll need to set up your own SQL database with the necessary blog content. Ensure the database includes fields for blog post titles, content, creation date, and unique identifiers for each post.
+## Learning Laravel
 
-### Steps to Deploy and Run the Application
-1. **Set up the Database:** Create an SQL database and configure it with your blog content. Use the appropriate structure to store blog post details.
-2. **Application Configuration:** Update the application configuration to connect to your SQL database. Modify the necessary settings to establish a connection.
-3. **Run the Application:** Deploy the application to a server or run it locally to enable the new features and view blog posts individually.
+Laravel has the most extensive and thorough [documentation](https://laravel.com/docs) and video tutorial library of all modern web application frameworks, making it a breeze to get started with the framework.
 
-**Note:** As a privacy measure, sensitive information and configuration details have been removed from the provided code. You'll need to fill in your credentials and database details in the appropriate configurations.
+You may also try the [Laravel Bootcamp](https://bootcamp.laravel.com), where you will be guided through building a modern Laravel application from scratch.
 
-## Privacy Disclaimer
-For privacy reasons, sensitive information has been redacted. The application requires a personalized setup with your SQL database to function correctly.
+If you don't feel like reading, [Laracasts](https://laracasts.com) can help. Laracasts contains over 2000 video tutorials on a range of topics including Laravel, modern PHP, unit testing, and JavaScript. Boost your skills by digging into our comprehensive video library.
+
+## Laravel Sponsors
+
+We would like to extend our thanks to the following sponsors for funding Laravel development. If you are interested in becoming a sponsor, please visit the Laravel [Patreon page](https://patreon.com/taylorotwell).
+
+### Premium Partners
+
+- **[Vehikl](https://vehikl.com/)**
+- **[Tighten Co.](https://tighten.co)**
+- **[Kirschbaum Development Group](https://kirschbaumdevelopment.com)**
+- **[64 Robots](https://64robots.com)**
+- **[Cubet Techno Labs](https://cubettech.com)**
+- **[Cyber-Duck](https://cyber-duck.co.uk)**
+- **[Many](https://www.many.co.uk)**
+- **[Webdock, Fast VPS Hosting](https://www.webdock.io/en)**
+- **[DevSquad](https://devsquad.com)**
+- **[Curotec](https://www.curotec.com/services/technologies/laravel/)**
+- **[OP.GG](https://op.gg)**
+- **[WebReinvent](https://webreinvent.com/?utm_source=laravel&utm_medium=github&utm_campaign=patreon-sponsors)**
+- **[Lendio](https://lendio.com)**
+
+## Contributing
+
+Thank you for considering contributing to the Laravel framework! The contribution guide can be found in the [Laravel documentation](https://laravel.com/docs/contributions).
+
+## Code of Conduct
+
+In order to ensure that the Laravel community is welcoming to all, please review and abide by the [Code of Conduct](https://laravel.com/docs/contributions#code-of-conduct).
+
+## Security Vulnerabilities
+
+If you discover a security vulnerability within Laravel, please send an e-mail to Taylor Otwell via [taylor@laravel.com](mailto:taylor@laravel.com). All security vulnerabilities will be promptly addressed.
 
 ## License
-This project is released under the MIT License.
 
-Feel free to explore the code and adapt it to suit your specific requirements.
+The Laravel framework is open-sourced software licensed under the [MIT license](https://opensource.org/licenses/MIT).
